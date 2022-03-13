@@ -122,7 +122,7 @@ nav ul {
   }
   .desc-card {
     min-height: 380px;
-    width: 288px;
+    min-width: 288px;
     background: #f5f5f5;
     box-shadow: 0px 0px 15px #c7c7c7;
     border-radius: 10px;
@@ -141,23 +141,30 @@ nav ul {
     grid-area: description;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 15px;
+    padding: 20px 20px 0px 20px;
     letter-spacing: 1px;
-    word-break: break-all;
+    font-size: 14px;
+
   }
   .description > h1 {
     letter-spacing: 2px;
     text-align: center;
+    font-size: 25px;
   }
   .desc-paragraph {
     text-align: center;
     padding: 0px 20px;
-    line-height: 20px;
+    line-height: 20px; 
+    font-size: 14px;
+    white-space: wrap
+
   }
   .desc-specs {
     border-top: 1px solid #c1c1c1;
     padding: 20px 0px 0px 0px;
+    font-size: 14px;
+    white-space: wrap
+
   }
   #photo1,
   #photo2,
