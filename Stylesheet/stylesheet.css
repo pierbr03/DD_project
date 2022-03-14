@@ -7,9 +7,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-
-
 /* Body */
 body {
     margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
@@ -178,7 +175,7 @@ nav ul {
   }
   
   #photo1 {
-    background-image: url(https://assets.codepen.io/1179484/monoOne.jpg);
+    background-image: url(images/Frankie.jpg);
   }
   #photo2 {
     background-image: url(https://assets.codepen.io/1179484/monoOne.jpg);
