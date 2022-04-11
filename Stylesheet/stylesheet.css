@@ -122,7 +122,6 @@ nav ul {
     height: fit-content;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 20px;
@@ -139,7 +138,7 @@ nav ul {
     display: grid;
     object-fit: fill;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: 322px 1fr;
     grid-template-areas:
       "photo"
       "description";
@@ -187,7 +186,9 @@ nav ul {
     background-size: cover;
     background-position: center;
   }
-  
+  #photo1,#photo3,#photo4{
+    background-position: top;
+  }
   #photo1 {
     background-image: url(Images/fullDetail.PNG);
   }
